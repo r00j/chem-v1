@@ -123,6 +123,7 @@ section .personal_header {
 }
 
 .toggle_mnu {
+    background: rgba( 10, 10, 10, 0.472);
     width: 60px;
     height: 60px;
     position: fixed;
@@ -332,7 +333,7 @@ path {
 }
 
 .toggle_mnu {
-    background-color: #000;
+    background-color: rgba( 10, 10, 10, 0.586);
 }
 
 .main_footer {

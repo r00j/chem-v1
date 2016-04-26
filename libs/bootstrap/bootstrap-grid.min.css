@@ -871,6 +871,9 @@ hr {
     .col-md-3 {
         width: 25%
     }
+    .col-md-2i {
+        width: 20%
+    }
     .col-md-2 {
         width: 16.66666667%
     }

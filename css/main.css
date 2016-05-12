@@ -355,11 +355,9 @@ path {
     margin-bottom: 15px;
 }
 
-.molecula iframe {
+.molecula img {
     max-width: 310px;
     display: inline-block;
-    border-radius: 40%;
-    border: #bebebe 1px solid;
 }
 
 .s_about p {

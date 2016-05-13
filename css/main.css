@@ -336,7 +336,7 @@ section .personal_header {
 }
 
 .toggle_mnu {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(10, 10, 10, 0.15);
 }
 
 .main_footer {

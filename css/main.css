@@ -331,7 +331,7 @@ section .personal_header {
     background-color: rgba(0, 0, 0, 0.1);
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .toggle_mnu {

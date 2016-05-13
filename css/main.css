@@ -110,19 +110,24 @@ section .personal_header {
     position: absolute;
 }
 
-
-/* .logo_container {
-    float: left; 
-} */
-
-.team-logo {
-    height: 300px;
-    width: 300px;
+.logo_container svg{
+    margin:auto;
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 400px;
+    width: 400px;
     z-index: 1;
-    position: relative;
+    border-top: 0px;
+    padding-bottom: 300px;
 }
 
+
+
 .toggle_mnu {
+    background: rgba(10, 10, 10, 0.472);
     width: 60px;
     height: 60px;
     position: fixed;
@@ -159,10 +164,6 @@ section .personal_header {
     -webkit-transition: -webkit-transform 0.5s, top 0.2s;
     transition: transform 0.5s, top 0.2s;
     display: block;
-}
-
-path {
-    fill: #e0e0e0;
 }
 
 .sw-bottom {
@@ -311,28 +312,30 @@ path {
     transition: all 1s ease;
 }
 
-.top_wrapper .top_text p {
+/*.top_wrapper .top_text p {
     margin: 0;
     font-size: 2, 5em;
     text-transform: uppercase;
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
-}
+} */
+
 
 .top_wrapper .top_text h1 {
     display: inline-block;
-    padding: 10px 10px;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top: 180px;
     color: #fff;
-    font-size: 4em;
+    font-size: 3.5em;
     background-color: rgba(0, 0, 0, 0.1);
-    margin-left: 20px;
-    margin-right: 20px;
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
+    border-radius: 50px;
 }
 
 .toggle_mnu {
-    background-color: #000;
+    background-color: rgba(10, 10, 10, 0.586);
 }
 
 .main_footer {

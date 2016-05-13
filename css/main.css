@@ -151,6 +151,7 @@ section .personal_header {
     right: 0;
     margin: auto;
     z-index: 200;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .sw-topper {
@@ -331,7 +332,7 @@ section .personal_header {
     background-color: rgba(0, 0, 0, 0.1);
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 .toggle_mnu {

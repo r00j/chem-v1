@@ -350,11 +350,14 @@ path {
     margin: 0;
 }
 
-.molecula img {
-     max-width: 310px;
-    display: inline-block;
+.molecula {
     text-align: center;
     margin-bottom: 15px;
+}
+
+.molecula img {
+    max-width: 310px;
+    display: inline-block;
 }
 
 .s_about p {

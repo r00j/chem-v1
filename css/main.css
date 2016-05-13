@@ -355,7 +355,7 @@ path {
     margin-bottom: 15px;
 }
 
-.molecula img {
+.molecula img iframe {
     max-width: 310px;
     display: inline-block;
 }
